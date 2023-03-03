@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* BREAKPOINT
+p até 600px
+cels 600 até 768px
+tablets 768 até 992px
+desktop 992 até 1200px
+grandes acima de 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body {
+        background-image: linear-gradient(to top, #e6f3f9, #0aabf5);
+    }
+    /* cor legal azul  #0aabf5 */
+    /* predio cinza     */
+    /* céu azul        #BED4EF */
+/* prédio azul     #282828  */
+    section#login {
+        width: 80vw;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top, #0aabf5, #e6f3f9);
+    }
+
+    section#login {
+        width: 950px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
+        
+    }
+}
