@@ -31,6 +31,7 @@ grandes acima de 1200px
         float: right;
         width: 70%;
     }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -44,7 +45,7 @@ grandes acima de 1200px
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
@@ -54,4 +55,13 @@ grandes acima de 1200px
         width: 50%;
         
     }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+    }
+
 }
